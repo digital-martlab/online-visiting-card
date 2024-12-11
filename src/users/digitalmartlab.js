@@ -411,11 +411,11 @@ export default function DigitalMartlab() {
                 </form>
             </section>
 
-            <section className="max-w-[450px] mx-auto bg-white relative w-full p-2 text-center mb-2">
+            {/* <section className="max-w-[450px] mx-auto bg-white relative w-full p-2 text-center mb-2">
                 <a href="https://digitalmartlab.com" target="_blank" className="font-semibold text-xs" rel="noreferrer">
                     © 2024 www.digitalmartlab.com
                 </a>
-            </section>
+            </section> */}
 
             <section className="bg-gray-900 w-full text-white p-2 py-4 md:py-2 sticky bottom-0 flex items-center justify-evenly">
                 <NavigationMenuItem Icon={BiHome} text={"Home"} link={"#home"} active={activeLink} />
