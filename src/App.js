@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import { Navigate, Route, Routes } from "react-router-dom";
+import Bcl from "./users/bcl";
+import Digitalcorridors from "./users/digitalcorridors";
+import DigitalMartlab from "./users/digitalmartlab";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path="/bcl" element={<Bcl />} />
+      <Route path="/digitalmartlab" element={<DigitalMartlab />} />
+      <Route path="/digitalcorridors" element={<Digitalcorridors />} />
+      <Route path="*" element={<Navigate to="/digitalmartlab" replace />} />
+    </Routes>
   );
 }
-
-export default App;
