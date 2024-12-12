@@ -86,11 +86,11 @@ export default function Digitalcorridors() {
                         <BsEye /> Views: 500
                     </span>
                     <div className="h-40 w-full object-cover overflow-hidden absolute top-0 left-0 bg-gradient-to-r from-violet-700 to-pink-700">
-                        <img src="https://nfcmycard.com/assets/img/bg-pattern.jpg" alt="background" className="opacity-30" />
+                        <img src="images/bg-pattern.jpg" alt="background" className="opacity-30" />
                     </div>
                     <div className="aspect-square w-44 h-auto border-4 border-white rounded-full mx-auto overflow-hidden z-50 relative mt-16">
                         <img
-                            src="https://www.digitalcorridors.com/images/team/yashika1.jpg"
+                            src="images/yashika-bansal-digitalcorridors.jpg"
                             className="w-full h-full object-cover"
                             alt="profile-image"
                         />
@@ -220,10 +220,10 @@ export default function Digitalcorridors() {
                     Reach out to us to explore how our expertise can amplify your marketing endeavors.
                 </p>
 
-                <div className="mt-4">
+                {/* <div className="mt-4">
                     <p className="font-bold">Our Specialities :</p>
                     <p className="mt-1">Digital Marketing</p>
-                </div>
+                </div> */}
             </section>
 
             <section className="max-w-[450px] mx-auto bg-white relative w-full p-8" id="join-us">
@@ -244,7 +244,7 @@ export default function Digitalcorridors() {
                     description={
                         "It's a highly digital and integrated world and business owners trying to succeed with their brands, products and services."
                     }
-                    image={"https://www.digitalcorridors.com/images/smm_main.png"}
+                    image={"https://www.beechwebservices.co.uk/wp-content/uploads/2024/09/create-strong-campaign-min.png"}
                     link={"https://www.digitalcorridors.com/idc.php"}
                 />
                 <EnquiryTemplate
@@ -252,7 +252,7 @@ export default function Digitalcorridors() {
                     description={
                         "Before you begin creating social media marketing campaigns, consider your business's goals."
                     }
-                    image={"https://www.digitalcorridors.com/images/smm_main.png"}
+                    image={"https://www.digitalsilk.com/wp-content/uploads/2020/06/website-development-process-hero-image.png"}
                     link={"https://www.digitalcorridors.com/smm.php"}
                 />
                 <EnquiryTemplate
@@ -304,15 +304,6 @@ export default function Digitalcorridors() {
                 <div className="grid grid-cols-1 gap-2 mt-4">
                     <iframe
                         src="https://www.youtube.com/embed/G6soh2hZhd0?si=Uov94XRaE8d7TOPf"
-                        title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin"
-                        allowfullscreen
-                        className="aspect-video w-full rounded-md"
-                    ></iframe>
-                    <iframe
-                        src="https://www.youtube.com/embed/jA0s1_f4WxY?si=PTiVivbQkSfcsCcf"
                         title="YouTube video player"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

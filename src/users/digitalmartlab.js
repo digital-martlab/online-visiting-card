@@ -86,7 +86,7 @@ export default function DigitalMartlab() {
                         <BsEye /> Views: 500
                     </span>
                     <div className="h-40 w-full object-cover overflow-hidden absolute top-0 left-0 bg-gradient-to-r from-violet-700 to-pink-700">
-                        <img src="https://nfcmycard.com/assets/img/bg-pattern.jpg" alt="background" className="opacity-30" />
+                        <img src="images/bg-pattern.jpg" alt="background" className="opacity-30" />
                     </div>
                     <div className="aspect-square w-44 h-auto border-4 border-white rounded-full mx-auto overflow-hidden z-50 relative mt-16">
                         <img

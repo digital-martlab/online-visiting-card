@@ -8,8 +8,8 @@ export default function App() {
     <Routes>
       <Route path="/bcl" element={<Bcl />} />
       <Route path="/digitalmartlab" element={<DigitalMartlab />} />
-      <Route path="/digitalcorridors" element={<Digitalcorridors />} />
-      <Route path="*" element={<Navigate to="/digitalmartlab" replace />} />
+      <Route path="/" element={<Digitalcorridors />} />
+      <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
   );
 }
